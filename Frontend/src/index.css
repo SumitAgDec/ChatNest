@@ -4,25 +4,24 @@
 
 /* For Webkit Browsers */
 ::-webkit-scrollbar {
-    display: none;
-    width: 2px;
-    border-radius: .5rem;
+  display: none;
+  width: 0px;
+  border-radius: 0rem;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    /* Track background */
-    border-radius: .5rem;
+  background: #f1f1f1;
+  /* Track background */
+  border-radius: 0rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    /* Scroll handle */
-    border-radius: .5rem;
+  background: #888;
+  /* Scroll handle */
+  border-radius: 0rem;
 }
-
 
 /* For Firefox */
 * {
-    scrollbar-width: thin;
+  scrollbar-width: none;
 }
